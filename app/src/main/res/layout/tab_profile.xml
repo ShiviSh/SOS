@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/cover"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/secondimage"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:alpha="0.2"
+        android:background="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstimage"
+        app:layout_constraintVertical_bias="0.095" />
+
+    <ImageView
+        android:id="@+id/firstimage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:alpha="0.6"
+        android:background="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:alpha="0.7"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="@id/firstimage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/textView4"
+        app:layout_constraintTop_toTopOf="@id/firstimage"
+        app:srcCompat="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="32dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="@id/firstimage"
+        app:layout_constraintEnd_toStartOf="@id/imageView5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/firstimage"
+        app:layout_constraintVertical_bias="0.5"
+        tools:text="Name" />
+
+    <Button
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="Send SOS"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@id/secondimage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintStart_toEndOf="@id/textView2"
+        app:layout_constraintTop_toTopOf="@id/secondimage" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:alpha="0.2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/secondimage"
+        app:layout_constraintVertical_bias="1"
+        app:srcCompat="@color/common_google_signin_btn_text_dark_pressed" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="210dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="SEND SOS"
+        android:textColor="#ffbe06"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@id/secondimage"
+        app:layout_constraintEnd_toStartOf="@id/floatingActionButton"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/secondimage"
+        app:layout_constraintVertical_bias="0.5" />
+
+
+</android.support.constraint.ConstraintLayout>
