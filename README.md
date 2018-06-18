@@ -12,6 +12,6 @@ Credits:
 
 https://parse.buddy.com for Parse server
 
-https://cloud.google.com/maps-platform/ for Gmaps
+https://cloud.google.com/maps-platform/ for gMaps
 
-https://firebase.google.com for text messagges
+https://firebase.google.com for text messages
