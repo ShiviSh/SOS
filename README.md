@@ -6,6 +6,8 @@ Parse Server uses REST api,monogodb and node.js for cloud code
 
 Note: User must be signed in to use this app
 
+Note** : The app is currently inactive due to parse server issues
+
 Credits:
 
 https://parse.buddy.com for Parse server
