@@ -177,5 +177,4 @@ function user(results){
 								}
 							}
 						}
-
 }
