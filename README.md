@@ -6,7 +6,7 @@ Parse Server uses REST api,monogodb and node.js for cloud code
 
 Note: User must be signed in to use this app
 
-Note** : The app is currently inactive due to parse server issues
+Note** : The app is currently inactive due to parse server issues.Please refer to "screencast.mp4" for a quick walkthrough
 
 Credits:
 
